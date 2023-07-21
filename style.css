@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(49, 39, 39);
+}
+main{
+    padding: 40px 20px;
+}
+.header{
+    display: flex;
+    /* border: 1px solid red; */
+    /* height: 150px; */
+    /* border: 1px solid red; */
+    overflow-x:scroll;
+}
+.header::-webkit-scrollbar{
+    /* border: 1px solid blue; */
+    height: 8px;
+    border: 1px solid blue;
+    border-radius: 10px; 
+
+}
+.header::-webkit-scrollbar-track{
+    border-radius: 10px; 
+
+}
+.header::-webkit-scrollbar-thumb{
+    background: lightblue;
+    border-radius: 10px; 
+    height: 2px;
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    height: 20vh;
+
+}
+.gtitle{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.mParcels{
+    display: flex;
+    font-size: 25px;
+}
+
+
+.parcelDiv{
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+}
+.pName{
+    color: white;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.pSeq{
+    text-align: center;
+    border: 1px solid rgb(49, 39, 39);
+    font-weight: bold;
+}
+
+
+.section2{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+.pname{
+    font-size: 25px;
+    color: aqua;
+    margin-left: 15px;
+}
+
+
+.section3{
+    display: flex;
+}
+.userDetails{
+    flex-grow: 0.1;
+    border: 1px solid lightblue;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    display: flex;
+    row-gap: 30px;
+}
+.ud{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    /* column-gap: 100px; */
+    justify-content: center;
+    /* border: 1px solid red; */
+    
+}
+#ud2{
+    /* display: flex; */
+    row-gap: 40px;
+    column-gap: 20px;
+}
+.userDetails input, select{
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.groupColors{
+    flex-grow: 1;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    font-size: 25px;
+    color: white;
+
+}
+.g{
+    display: flex;
+    padding: 50px;
+    column-gap: 30px;
+}
+.gc1{
+    /* border: 1px solid aqua; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    /* padding: 10px; */
+}
+.gc2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.gc{
+    height: 30px;
+    width: 30px;
+}
+
+
+.section4{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 15px 50px;
+    background-color: lightgreen;
+    border-radius: 7px;
+}
